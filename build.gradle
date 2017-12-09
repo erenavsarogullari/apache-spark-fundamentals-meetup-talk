@@ -1,0 +1,21 @@
+description = 'Apache Spark Fundamentals Meetup Talk'
+
+apply plugin: 'java'
+apply plugin: 'scala'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+ext {
+    scalaVersion = '2.11'
+    sparkVersion = '2.2.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.scala-lang:scala-library:$scalaVersion"
+    compile "org.apache.spark:spark-core_$scalaVersion:$sparkVersion"
+    compile "org.apache.spark:spark-sql_$scalaVersion:$sparkVersion"
+}
