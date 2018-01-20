@@ -7,4 +7,5 @@ This repo covers the following sources presented at Dublin Data Science & Engine
 - Databricks Community Edition Notebooks
 
 ### Event:
+
 https://www.meetup.com/Data-Science-and-Engineering-Club/events/245237402/
